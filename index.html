@@ -20,7 +20,7 @@
             text-align: left;
         }
         .table-container {
-            width: 620px;
+            width: 600px;
             margin: 40px auto;
             background: #fff;
             padding: 24px;
@@ -32,6 +32,10 @@
         }
         .border {
             border-bottom: 1px solid #E0E0E0;
+        }
+        .table-footer td {
+            width: 50%;
+            vertical-align: bottom;
         }
     </style>
 </head>
@@ -84,27 +88,23 @@
                     <td>6</td>
                     <td>$3194.99</td>
                 </tr>
-            </tbody>
-            <tfoot>
-                <tr>
+                    <tr>
                     <td colspan="3">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <img src="img/logo.png" alt="logo">
-                                    <p>Acme corporation</p>
-                                    <p>Think different</p>
-                                </td>
-                                <td>
-                                    <p>123 Main Street Anytown, CA 12345</p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                        <table class="table-footer">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p><img src="img/logo.png" alt="logo"></p>
+                                        <p> Acme corporation</p>
+                                        <p>Think different</p>
+                                    </td>
+                                    <td>123 Main Street Anytown, CA 12345</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </td>
                 </tr>
-            </tfoot>
+            </tbody>
         </table>
     </div>
     </div>
